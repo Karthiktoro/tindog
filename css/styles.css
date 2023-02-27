@@ -1,0 +1,168 @@
+
+body {
+    font-family: 'Montserrat-Black';
+}
+
+h1 ,h2 , h3 ,h4 ,h5 ,h6 {
+    font-family: 'Montserrat-Black';
+}
+
+h1 {
+    font-size : 3.5rem;
+    line-height : 1.5;
+    color: white;
+}
+
+h2 {
+   
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    padding-top: 3%;
+    font-size : 3.5rem;
+    line-height : 1.5;
+    margin: auto;
+}
+
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.iphone-mobile {
+    transform: rotate(25deg) ;
+    width: 60%;
+    position: absolute;
+}
+
+/* navigation bar */
+
+.navbar-brand {
+    font-family: 'ubuntu';
+    font-size: 2rem;
+}
+
+.navbar {
+    padding:0 0  4.5rem;
+}
+
+.nav-item {
+padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Montserrat-light';
+    font-size: 1.5rem;
+}
+
+.download-button {
+    margin: 10% 10% 10% 0;
+}
+
+.feature-icon {
+    color: #ef8172;   
+}
+
+.feature-text {
+    font-family: 'Montserrat-Black';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.feature {
+    text-align: center;
+    padding: 3%;
+    position: relative;
+    background-color: #fff;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-right: 1rem;
+}
+
+.section-heading {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-icon {
+    width: 15%;
+    margin : 20px 20px 50px ;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.price-text {
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+.price-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:991px){
+    .iphone-mobile {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
+
+#cta {
+    text-align: center;
+    background-color: #ff4c88;
+}
+
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.social-icon {
+    padding: 2%;
+}
+
+.cta-text {
+    max-width: 800px;
+    color: white;
+}
